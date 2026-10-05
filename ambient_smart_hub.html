@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="vi" style=""><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#00dbe9","on-primary-fixed-variant":"#00429b","on-background":"#dfe2f0","inverse-primary":"#0058cb","on-surface-variant":"#c2c6d6","secondary-container":"#0068ed","surface-container-low":"#171c25","surface-container":"#1b2029","on-secondary":"#002d6e","on-error-container":"#ffdad6","background":"#070b14","on-secondary-container":"#f2f3ff","on-tertiary-container":"#b0f8ff","primary-fixed":"#d9e2ff","secondary-fixed":"#d9e2ff","surface-container-highest":"#31353f","tertiary":"#00dbe9","surface-container-lowest":"#0a0e17","surface":"#0b1120","tertiary-fixed":"#7df4ff","surface-bright":"#353944","primary-fixed-dim":"#b0c6ff","on-primary-fixed":"#001945","surface-tint":"#b0c6ff","on-tertiary-fixed":"#002022","on-primary":"#002d6f","inverse-surface":"#dfe2f0","on-secondary-fixed":"#001945","secondary-fixed-dim":"#b0c6ff","on-secondary-fixed-variant":"#00429b","secondary":"#b0c6ff","on-tertiary-fixed-variant":"#004f54","tertiary-container":"#00767e","on-error":"#690005","primary-container":"#1b64da","on-tertiary":"#00363a","outline":"#8c909f","error-container":"#93000a","surface-variant":"#31353f","error":"#ffb4ab","primary":"#2979ff","surface-container-high":"#262a34","inverse-on-surface":"#2c303b","on-primary-container":"#e6ebff","surface-dim":"#0f131d","outline-variant":"#424654","on-surface":"#dfe2f0","neon-cyan":"#00f0ff","samsung-blue":"#1428a0","electric-blue":"#2979ff","smartthings-emerald":"#00d284"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","2xl":"1rem","3xl":"1.5rem","full":"9999px"},"fontFamily":{"headline":["Inter","sans-serif"],"display":["Inter","sans-serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]}}}}</script></head><body class="bg-[#070b14] font-body text-on-surface min-h-screen selection:bg-electric-blue selection:text-white" style="display: flex; justify-content: center; align-items: center; min-height: 100vh; overflow: hidden; margin: 0px; background-color: #050811;"><!-- 16:9 Samsung One UI Smart TV Canvas Container -->
+<div class="relative w-full max-w-[1920px] aspect-video max-h-[1080px] h-screen overflow-hidden flex flex-col justify-between select-none shadow-[0_0_80px_rgba(0,0,0,0.9)] border border-white/5 bg-[#070b14]">
+<!-- Ambient Backdrop with Tizen Dark Gradient Masking -->
+<div class="absolute inset-0 -z-30 overflow-hidden pointer-events-none">
+<!-- Cinematic Aurora Fjord Image Layer -->
+<div class="absolute inset-0 bg-cover bg-center scale-105 filter brightness-[0.62] contrast-[1.12]" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC9WloL213Ka8cgSKlY08bJqo6ZVG15ISWqQRF4qaOBsG9jD9BxH76TJn7B9Stvx7vTDRpMMjmqrn2W3H24Omuw0BqCRclDSKLi8ihcMYnO2c_ID70ZXYr0e3aT-4y757D5jkoOXNgk2XwI7tCA9_JIw2eevHm27vt4aQLGzdNGSpTc6RkXiP4OCqd_moc5er1Co-lBSnqZI_PuYc6lMH2pypiQ7jtDlvtqZ0gJTKuWfNqLbir4YLM4sQ');"></div>
+<!-- Samsung Dark Blue & Gradient Vignette -->
+<div class="absolute inset-0 bg-gradient-to-t from-[#070b14] via-[#070b14]/70 to-[#070b14]/40"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-[#070b14]/85 via-transparent to-[#070b14]/85"></div>
+<!-- Samsung Royal Blue & Cyan Ambient Glow Orbs -->
+<div class="absolute -top-32 -left-32 w-[70vw] h-[55vh] rounded-full bg-gradient-to-br from-[#1b64da]/25 via-[#2979ff]/15 to-transparent blur-[140px] mix-blend-screen pointer-events-none"></div>
+<div class="absolute -bottom-36 right-1/4 w-[60vw] h-[50vh] rounded-full bg-gradient-to-t from-[#00d2ff]/15 via-[#1428a0]/20 to-transparent blur-[150px] mix-blend-screen pointer-events-none"></div>
+<!-- Subtle Stardust Sparkles -->
+<svg class="absolute inset-0 w-full h-full opacity-30 mix-blend-screen" xmlns="http://www.w3.org/2000/svg">
+<circle cx="15%" cy="22%" fill="#7df4ff" opacity="0.8" r="1.5"></circle>
+<circle cx="38%" cy="14%" fill="#ffffff" opacity="0.6" r="1"></circle>
+<circle cx="62%" cy="28%" fill="#2979ff" opacity="0.9" r="2"></circle>
+<circle cx="84%" cy="18%" fill="#ffffff" opacity="0.7" r="1.5"></circle>
+<circle cx="92%" cy="38%" fill="#7df4ff" opacity="0.5" r="1"></circle>
+</svg>
+</div>
+<!-- 1. HEADER / STATUS (Minimalist Samsung Tizen OS Style) -->
+<header class="w-full pt-8 px-12 lg:px-16 flex items-center justify-between z-30">
+<!-- Left: Bixby Assistant Pill & SmartThings Connected Status -->
+<div class="flex items-center gap-4">
+<!-- Bixby Voice Assistant Trigger -->
+<div class="flex items-center gap-3 px-4 py-2 rounded-full bg-[#111827]/75 backdrop-blur-md border border-white/10 shadow-[0_0_20px_rgba(41,121,255,0.15)] group cursor-pointer hover:border-electric-blue/50 transition-all">
+<div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#2979ff] to-[#536dfe] flex items-center justify-center shadow-[0_0_12px_rgba(41,121,255,0.6)]">
+<span class="material-symbols-outlined text-white text-[19px]">mic</span>
+</div>
+<div class="flex flex-col pr-1">
+<div class="flex items-center gap-1.5">
+<span class="text-[13px] font-bold text-white tracking-wide">Bixby</span>
+<span class="w-1.5 h-1.5 rounded-full bg-neon-cyan animate-ping"></span>
+</div>
+<span class="text-[11px] text-on-surface-variant font-medium">Nói để tìm kiếm hoặc điều khiển TV</span>
+</div>
+<div class="flex items-center gap-1 pl-2 border-l border-white/10">
+<span class="w-1 h-3 rounded-full bg-electric-blue animate-pulse"></span>
+<span class="w-1 h-4.5 rounded-full bg-neon-cyan animate-pulse delay-75"></span>
+<span class="w-1 h-2.5 rounded-full bg-[#536dfe] animate-pulse delay-150"></span>
+</div>
+</div>
+<!-- SmartThings Connected Hub Status -->
+<div class="hidden md:flex items-center gap-2.5 px-4 py-2 rounded-full bg-[#111827]/60 backdrop-blur-md border border-white/10">
+<span class="material-symbols-outlined text-smartthings-emerald text-[18px]">home_iot_device</span>
+<span class="text-xs font-medium text-on-surface">SmartThings:</span>
+<span class="text-xs font-semibold text-white">Phòng khách • 24°C</span>
+<span class="w-1.5 h-1.5 rounded-full bg-smartthings-emerald"></span>
+</div>
+</div>
+<!-- Center: Expansive Clean Breathable Area (No redundant navigation links) -->
+<div></div>
+<!-- Right: Samsung One UI Status Bar -->
+<div class="flex items-center gap-3">
+<!-- Input Source Badge -->
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#111827]/70 backdrop-blur-md border border-white/10 text-xs font-medium text-on-surface">
+<span class="material-symbols-outlined text-[17px] text-electric-blue">settings_input_hdmi</span>
+<span class="font-mono text-white text-[11px] font-semibold">HDMI 1</span>
+</div>
+<!-- Connectivity Status Cluster -->
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#111827]/70 backdrop-blur-md border border-white/10 text-on-surface-variant">
+<span class="material-symbols-outlined text-[17px] text-white" title="Wi-Fi 6 Băng tần kép cực mạnh">wifi</span>
+<span class="material-symbols-outlined text-[17px] text-neon-cyan" title="Loa Bluetooth Samsung Q-Symphony đã kết nối">bluetooth_audio</span>
+<span class="material-symbols-outlined text-[17px] text-on-surface-variant" title="Cổng USB mở rộng">usb</span>
+</div>
+<!-- Mini Live Clock -->
+<div class="hidden sm:flex flex-col text-right px-3 py-1 bg-[#111827]/70 backdrop-blur-md border border-white/10 rounded-full">
+<span class="text-sm font-bold font-mono text-white tracking-tight leading-none" id="header-mini-clock">20:45</span>
+</div>
+<!-- Settings Icon -->
+<button aria-label="Cài đặt hệ thống Samsung" class="w-9 h-9 rounded-full bg-[#111827]/70 border border-white/10 hover:border-electric-blue/50 text-on-surface-variant hover:text-white flex items-center justify-center transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">settings</span>
+</button>
+<!-- Samsung Account Profile Avatar -->
+<div class="relative w-9 h-9 rounded-full bg-gradient-to-tr from-[#1b64da] to-[#00d2ff] p-0.5 shadow-[0_0_12px_rgba(41,121,255,0.4)] flex items-center justify-center">
+<div class="w-full h-full rounded-full bg-[#070b14] flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-[19px]">account_circle</span>
+</div>
+<div class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-smartthings-emerald border-2 border-[#070b14]" title="Samsung Account Đã đồng bộ"></div>
+</div>
+</div>
+</header>
+<!-- 2. CENTER AMBIENT DISPLAY (Tizen OS Ambient Mode 16:9) -->
+<main class="w-full px-12 lg:px-16 my-auto flex flex-col justify-center z-20">
+<!-- Top Micro Badges: Tizen Ambient Mode & OLED Care -->
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#111827]/60 backdrop-blur-md border border-white/10 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-electric-blue animate-ping"></span>
+<span class="text-xs uppercase tracking-widest font-semibold text-white">Tizen Ambient Mode</span>
+<span class="w-1 h-3 rounded-full bg-white/20"></span>
+<span class="text-xs text-neon-cyan font-mono font-medium">QLED 4K • HDR10+ Adaptive</span>
+</div>
+<div class="flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#111827]/60 backdrop-blur-md border border-white/10 shadow-sm">
+<span class="material-symbols-outlined text-smartthings-emerald text-[16px]">verified</span>
+<span class="text-[11px] font-semibold text-white">Samsung OLED Pixel Shift</span>
+<span class="text-[10px] text-on-surface-variant font-mono">120s Cycle</span>
+</div>
+</div>
+<!-- Center Stage: Big Clock + Vietnam Calendar + Tizen Weather Glass Card -->
+<div class="w-full flex flex-col xl:flex-row items-center justify-between gap-8 transition-transform duration-1000 ease-out" id="pixel-shift-target" style="transform: translate(-1px, 2px);">
+<!-- Primary Clock & Atmospheric Vietnamese Typography -->
+<div class="flex flex-col items-center xl:items-start text-center xl:text-left">
+<!-- Giant Ultra-Crisp Clock Display -->
+<div class="relative flex items-baseline tracking-tighter">
+<span class="text-8xl sm:text-9xl lg:text-[10.5rem] font-light text-white drop-shadow-[0_0_50px_rgba(41,121,255,0.3)] font-sans leading-none tracking-tight" id="screensaver-time">20:45</span>
+<span class="text-2xl sm:text-3xl font-light text-electric-blue ml-4 font-mono tracking-wider">PM</span>
+</div>
+<!-- Vietnam Solar & Traditional Lunar Date -->
+<div class="mt-4 flex flex-wrap items-center justify-center xl:justify-start gap-3.5 text-on-surface">
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-[#111827]/70 backdrop-blur-md border border-white/10 shadow-sm">
+<span class="material-symbols-outlined text-electric-blue text-[20px]">calendar_month</span>
+<span class="text-base sm:text-lg font-bold text-white tracking-wide">Thứ Năm, 24 Tháng 10, 2025</span>
+</div>
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-gradient-to-r from-[#1b64da]/30 to-[#111827]/70 backdrop-blur-md border border-electric-blue/30 shadow-sm">
+<span class="material-symbols-outlined text-neon-cyan text-[20px]">bedtime</span>
+<span class="text-sm sm:text-base text-neon-cyan font-semibold tracking-wide">22/09 Âm lịch (Năm Ất Tỵ • Giờ Hoàng Đạo)</span>
+</div>
+</div>
+<!-- Atmospheric Artwork Location Caption -->
+<div class="mt-3.5 flex items-center gap-3 text-on-surface-variant">
+<div class="w-2 h-2 rounded-full bg-neon-cyan"></div>
+<p class="text-xs sm:text-sm font-medium text-slate-300">
+            Trưng bày: <span class="text-white font-semibold">Cực quang huyền ảo vịnh hẹp Tromsø, Na Uy</span> • Bộ sưu tập Thiên nhiên Samsung The Frame 4K
+          </p>
+</div>
+</div>
+<!-- Right Glass Card: Tizen One UI Weather Card -->
+<div class="w-full max-w-md p-6 rounded-3xl bg-[#111827]/75 backdrop-blur-2xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] flex flex-col gap-5">
+<!-- Weather Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-[#1b64da] to-[#00d2ff] p-0.5 flex items-center justify-center shadow-lg shadow-electric-blue/20">
+<div class="w-full h-full bg-[#0a0f1d] rounded-[14px] flex items-center justify-center">
+<span class="material-symbols-outlined text-neon-cyan text-3xl">partly_cloudy_night</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-extrabold text-white tracking-tight">28°C</span>
+<span class="text-xs text-on-surface-variant font-medium">Cảm giác như 29°</span>
+</div>
+<p class="text-xs text-electric-blue font-semibold">Hà Nội • Thời tiết có mây nhẹ</p>
+</div>
+</div>
+<span class="text-[11px] px-3 py-1 rounded-full bg-electric-blue/15 border border-electric-blue/30 text-neon-cyan font-bold tracking-wider uppercase font-mono">Live TV</span>
+</div>
+<!-- Atmospheric Metrics Grid -->
+<div class="grid grid-cols-3 gap-3">
+<div class="p-3 rounded-2xl bg-[#1f293d]/50 border border-white/5 flex flex-col">
+<span class="text-[11px] text-on-surface-variant flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[15px] text-neon-cyan">humidity_mid</span> Độ ẩm
+            </span>
+<span class="text-base font-bold text-white mt-1">75%</span>
+<span class="text-[10px] text-smartthings-emerald font-medium">Tối ưu phòng</span>
+</div>
+<div class="p-3 rounded-2xl bg-[#1f293d]/50 border border-white/5 flex flex-col">
+<span class="text-[11px] text-on-surface-variant flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[15px] text-smartthings-emerald">air</span> AQI Khí trời
+            </span>
+<span class="text-base font-bold text-smartthings-emerald mt-1">25 AQI</span>
+<span class="text-[10px] text-smartthings-emerald font-medium">Rất tốt</span>
+</div>
+<div class="p-3 rounded-2xl bg-[#1f293d]/50 border border-white/5 flex flex-col">
+<span class="text-[11px] text-on-surface-variant flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[15px] text-electric-blue">airwave</span> Gió nhẹ
+            </span>
+<span class="text-base font-bold text-white mt-1">9 km/h</span>
+<span class="text-[10px] text-on-surface-variant">Đông Nam</span>
+</div>
+</div>
+<!-- Forecast Summary Bar -->
+<div class="flex items-center justify-between pt-1 border-t border-white/10 text-xs text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-smartthings-emerald animate-pulse"></span>
+<span class="text-slate-300">Không mưa, không khí lý tưởng</span>
+</div>
+<span class="text-[11px] font-mono text-neon-cyan font-medium">Đêm nay: 24°C</span>
+</div>
+</div>
+</div>
+</main>
+<!-- 3. BOTTOM QUICK HUB / SIGNATURE SAMSUNG SMART HUB FLOATING DOCK -->
+<section class="w-full px-12 lg:px-16 pb-6 z-30 flex flex-col gap-2">
+<!-- Hub Header & Active Focus Tooltip Banner -->
+<div class="flex items-center justify-between px-2">
+<div class="flex items-center gap-3">
+<div class="w-2.5 h-2.5 rounded-full bg-electric-blue animate-ping shadow-[0_0_12px_rgba(41,121,255,1)]"></div>
+<span class="text-xs font-black tracking-widest uppercase text-white font-label flex items-center gap-2">
+          SAMSUNG SMART HUB
+          <span class="text-[11px] text-neon-cyan bg-electric-blue/15 border border-electric-blue/40 px-2.5 py-0.5 rounded-full font-mono font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[13px]">dialpad</span> Bấm số [1 - 8] hoặc D-Pad
+          </span>
+</span>
+</div>
+<!-- Active Focus Live Preview Tooltip (Netflix Focused) -->
+<div class="flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gradient-to-r from-[#1b64da] via-[#2979ff] to-[#00d2ff] text-white shadow-[0_0_20px_rgba(41,121,255,0.5)] animate-pulse">
+<span class="material-symbols-outlined text-[17px] text-white">play_circle</span>
+<span class="text-xs font-bold tracking-wide">Netflix • Tiếp tục xem tập 3 "Stranger Things" • Bấm [OK] để phát</span>
+</div>
+<div class="flex items-center gap-3 text-xs font-semibold text-on-surface-variant">
+<div class="flex items-center gap-1.5 text-white hover:text-neon-cyan transition-all cursor-pointer">
+<span class="material-symbols-outlined text-[16px] text-electric-blue">apps</span>
+<span>Kho ứng dụng Tizen (Apps)</span>
+</div>
+</div>
+</div>
+<!-- Smart Hub 8 Squircle App Tiles Grid -->
+<div class="grid grid-cols-8 gap-3.5 w-full relative pt-1">
+<!-- App 1: Samsung TV Plus / Smart Hub Home -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>1
+        </div>
+<div class="w-11 h-11 rounded-xl bg-gradient-to-br from-[#1428a0] to-[#2979ff] p-0.5 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<div class="w-full h-full bg-[#0a0e1a] rounded-[10px] flex items-center justify-center">
+<span class="material-symbols-outlined text-neon-cyan text-[22px]">tv</span>
+</div>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">TV Plus</span>
+<span class="text-[10px] text-neon-cyan font-medium truncate">Kênh trực tiếp</span>
+</div>
+</div>
+<!-- App 2: YouTube -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>2
+        </div>
+<div class="w-11 h-11 rounded-xl bg-[#280505] border border-red-500/30 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<svg class="w-6 h-6 fill-[#ff0033]" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">YouTube</span>
+<span class="text-[10px] text-slate-400 font-medium truncate">4K HDR Video</span>
+</div>
+</div>
+<!-- App 3: Netflix (FOCUSED 10-FOOT STATE with Samsung Electric Blue glowing ring) -->
+<div class="relative flex items-center gap-3 p-3 rounded-2xl bg-[#1a253d] border-2 border-[#2979ff] ring-4 ring-[#2979ff] shadow-[0_0_30px_rgba(41,121,255,0.6)] scale-105 transition-all cursor-pointer z-20">
+<!-- Quick Remote Digit Badge -->
+<div class="absolute -top-2.5 left-2.5 px-2 py-0.5 rounded-full bg-electric-blue text-white font-mono font-black text-[10px] shadow-[0_0_12px_rgba(41,121,255,0.8)] flex items-center gap-0.5">
+<span class="text-[8px] opacity-80">KEY</span>3
+        </div>
+<!-- Focused Status Tag -->
+<div class="absolute -top-2.5 right-2 px-2 py-0.5 rounded-full bg-electric-blue text-white font-bold text-[9px] tracking-wide uppercase shadow-md flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+<span>Bấm [OK]</span>
+</div>
+<div class="w-11 h-11 rounded-xl bg-black border border-red-600/70 flex items-center justify-center flex-shrink-0 shadow-lg">
+<span class="font-black text-2xl text-[#E50914] font-display tracking-tighter">N</span>
+</div>
+<div class="flex flex-col min-w-0 pr-1">
+<span class="text-[13px] font-black text-white truncate">Netflix</span>
+<span class="text-[10px] text-neon-cyan font-bold truncate">Đang chọn</span>
+</div>
+</div>
+<!-- App 4: VTV Go -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>4
+        </div>
+<div class="w-11 h-11 rounded-xl bg-gradient-to-br from-red-600 to-blue-700 p-0.5 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<div class="w-full h-full bg-[#0a0e1a] rounded-[10px] flex items-center justify-center font-bold text-[11px] text-white tracking-wider">VTV</div>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">VTV Go</span>
+<span class="text-[10px] text-slate-400 font-medium truncate">Truyền hình QG</span>
+</div>
+</div>
+<!-- App 5: VieON -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>5
+        </div>
+<div class="w-11 h-11 rounded-xl bg-black border border-emerald-500/40 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<span class="text-[#00ff88] font-black text-xs tracking-tight">VieON</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">VieON</span>
+<span class="text-[10px] text-slate-400 font-medium truncate">Show &amp; Phim</span>
+</div>
+</div>
+<!-- App 6: FPT Play -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>6
+        </div>
+<div class="w-11 h-11 rounded-xl bg-[#1f1005] border border-orange-500/40 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[#ff6600] text-[22px]">sports_soccer</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">FPT Play</span>
+<span class="text-[10px] text-slate-400 font-medium truncate">Bóng đá &amp; TV</span>
+</div>
+</div>
+<!-- App 7: Spotify -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>7
+        </div>
+<div class="w-11 h-11 rounded-xl bg-black border border-[#1db954]/40 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<svg class="w-6 h-6 fill-[#1db954]" viewbox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">Spotify</span>
+<span class="text-[10px] text-slate-400 font-medium truncate">Âm nhạc TV</span>
+</div>
+</div>
+<!-- App 8: SmartThings Dashboard -->
+<div class="group relative flex items-center gap-3 p-3 rounded-2xl bg-[#111827]/75 border border-white/10 hover:border-electric-blue/40 hover:bg-[#1a2438] transition-all shadow-md cursor-pointer">
+<div class="absolute -top-2 left-2.5 px-1.5 py-0.2 rounded bg-[#1b2029] border border-white/15 text-[10px] font-mono font-bold text-on-surface-variant shadow-sm flex items-center gap-0.5">
+<span class="text-[8px] opacity-70">#</span>8
+        </div>
+<div class="w-11 h-11 rounded-xl bg-[#032219] border border-smartthings-emerald/40 flex items-center justify-center flex-shrink-0 shadow-inner group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-smartthings-emerald text-[22px]">hub</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="text-[13px] font-bold text-white truncate">SmartThings</span>
+<span class="text-[10px] text-smartthings-emerald font-medium truncate">Điều khiển nhà</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. FOOTER: SAMSUNG SOLARCELL REMOTE SHORTCUT BAR -->
+<footer class="w-full bg-[#070b14]/90 backdrop-blur-2xl border-t border-white/10 py-3 z-40">
+<div class="w-full px-12 lg:px-16 flex items-center justify-between text-xs text-on-surface-variant">
+<!-- Samsung SolarCell Remote Key Legend -->
+<div class="flex items-center gap-6">
+<span class="flex items-center gap-2 text-white font-medium text-[11px]">
+<span class="px-2 py-0.5 rounded-md bg-[#1b2029] border border-white/15 font-mono font-bold text-neon-cyan text-[10px]">D-Pad [▲▼◀▶]</span>
+<span>Di chuyển</span>
+</span>
+<span class="flex items-center gap-2 text-white font-medium text-[11px]">
+<span class="px-2 py-0.5 rounded-md bg-electric-blue text-white font-mono font-bold text-[10px] shadow-[0_0_8px_rgba(41,121,255,0.7)]">[OK]</span>
+<span>Chọn / Mở</span>
+</span>
+<span class="flex items-center gap-2 text-white font-medium text-[11px]">
+<span class="px-2 py-0.5 rounded-md bg-[#1b2029] border border-white/15 font-mono font-bold text-slate-300 text-[10px]">[⌂ Home]</span>
+<span>Smart Hub</span>
+</span>
+<span class="flex items-center gap-2 text-white font-medium text-[11px]">
+<span class="px-2 py-0.5 rounded-md bg-[#1b2029] border border-white/15 font-mono font-bold text-slate-300 text-[10px]">[↶ Return]</span>
+<span>Trở lại</span>
+</span>
+<span class="flex items-center gap-2 text-white font-medium text-[11px]">
+<span class="px-2 py-0.5 rounded-md bg-[#1b2029] border border-white/15 font-mono font-bold text-slate-300 text-[10px]">[123/•••]</span>
+<span>Bàn phím số &amp; Màu</span>
+</span>
+</div>
+<!-- TV 4-Color Dedicated Action Buttons -->
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-red-500 shadow-[0_0_6px_rgba(239,68,68,0.8)]"></span>
+<span class="text-[11px] text-slate-300 font-medium">Đổi chủ đề</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(52,211,153,0.8)]"></span>
+<span class="text-[11px] text-slate-300 font-medium">Eco 12W</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-amber-400 shadow-[0_0_6px_rgba(251,191,36,0.8)]"></span>
+<span class="text-[11px] text-slate-300 font-medium">Hiệu chỉnh ảnh</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-sky-400 shadow-[0_0_6px_rgba(56,189,248,0.8)]"></span>
+<span class="text-[11px] text-slate-300 font-medium">Âm thanh Q-Symphony</span>
+</div>
+</div>
+<!-- System Architecture & OS Badge -->
+<div class="hidden xl:flex items-center gap-2.5 text-[11px]">
+<span class="text-white font-semibold">Samsung Tizen OS 8.0</span>
+<span class="w-1 h-1 rounded-full bg-electric-blue"></span>
+<span class="text-neon-cyan font-mono font-medium">One UI for TV</span>
+</div>
+</div>
+</footer>
+</div>
+<!-- Interactive Pixel Shift Script & Dynamic Clock -->
+<script>
+  (function() {
+    function updateScreensaverClock() {
+      const now = new Date();
+      let hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const clockEl = document.getElementById('screensaver-time');
+      const miniClock = document.getElementById('header-mini-clock');
+      if (clockEl) {
+        clockEl.textContent = `${hours}:${minutes}`;
+      }
+      if (miniClock) {
+        miniClock.textContent = `${hours}:${minutes}`;
+      }
+    }
+    setInterval(updateScreensaverClock, 1000);
+    updateScreensaverClock();
+
+    // Samsung OLED Pixel Shift: slight organic drift every 30 seconds to prevent phosphor burn-in
+    const target = document.getElementById('pixel-shift-target');
+    if (target) {
+      let step = 0;
+      const shifts = [
+        { x: 2, y: -2 },
+        { x: -3, y: 1 },
+        { x: -1, y: 3 },
+        { x: 3, y: -1 },
+        { x: 0, y: 0 }
+      ];
+
+      setInterval(() => {
+        step = (step + 1) % shifts.length;
+        const { x, y } = shifts[step];
+        target.style.transform = `translate(${x}px, ${y}px)`;
+      }, 30000);
+    }
+  })();
+</script>
+</body></html>
